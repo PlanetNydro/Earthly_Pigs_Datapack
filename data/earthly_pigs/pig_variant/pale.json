@@ -1,0 +1,7 @@
+{
+  "biomes": [
+    "minecraft:snowy_plains",
+    "minecraft:pale_garden"
+  ],
+  "texture": "earthly_pigs:entity/pig/pale_pig"
+}

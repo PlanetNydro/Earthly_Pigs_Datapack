@@ -1,0 +1,6 @@
+{
+  "angry_texture": "nydros_wolves:entity/wolf/wolf_skeleton_angry",
+  "biomes": "minecraft:desert",
+  "tame_texture": "nydros_wolves:entity/wolf/wolf_skeleton_tame",
+  "wild_texture": "nydros_wolves:entity/wolf/wolf_skeleton"
+}
