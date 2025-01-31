@@ -1,0 +1,12 @@
+{
+  "asset_id": "earthly_mobs:entity/pig/sooty_pig",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:dark_forest"
+      },
+      "priority": 2
+    }
+  ]
+}

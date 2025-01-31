@@ -1,6 +1,10 @@
 {
   "pack": {
-    "description": "Adds in lost pigs (and a wolf) from Minecraft Earth",
-    "pack_format": 62
+    "description": [
+      "Adds in lost variants from Minecraft Earth",
+      "Made by PlanetNydro"
+    ],
+    "pack_format": 65,
+    "supported_formats": 64
   }
 }

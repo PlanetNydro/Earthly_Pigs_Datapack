@@ -1,0 +1,15 @@
+{
+  "asset_id": "earthly_mobs:entity/cow/moolip_cow",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": [
+          "minecraft:cherry_grove",
+          "minecraft:flower_forest"
+        ]
+      },
+      "priority": 1
+    }
+  ]
+}

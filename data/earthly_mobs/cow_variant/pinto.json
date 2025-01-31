@@ -1,0 +1,8 @@
+{
+  "asset_id": "earthly_mobs:entity/cow/pinto_cow",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

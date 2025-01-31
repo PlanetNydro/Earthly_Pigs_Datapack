@@ -1,0 +1,20 @@
+{
+  "asset_id": "earthly_mobs:entity/cow/wolly_cow",
+  "model": "cold",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:snowy_plains"
+      },
+      "priority": 2
+    },
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:spawns_cold_variant_farm_animals"
+      },
+      "priority": 1
+    }
+  ]
+}

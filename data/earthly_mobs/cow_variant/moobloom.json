@@ -1,0 +1,15 @@
+{
+  "asset_id": "earthly_mobs:entity/cow/moobloom_cow",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": [
+          "minecraft:sunflower_plains",
+          "minecraft:flower_forest"
+        ]
+      },
+      "priority": 1
+    }
+  ]
+}

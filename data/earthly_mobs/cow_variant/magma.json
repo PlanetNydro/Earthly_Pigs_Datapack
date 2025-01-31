@@ -1,0 +1,13 @@
+{
+  "asset_id": "earthly_mobs:entity/cow/magma_cow",
+  "model": "warm",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:basalt_deltas"
+      },
+      "priority": 1
+    }
+  ]
+}

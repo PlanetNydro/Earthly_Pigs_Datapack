@@ -1,0 +1,9 @@
+{
+  "asset_id": "earthly_mobs:entity/cow/umbra_cow",
+  "model": "cold",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

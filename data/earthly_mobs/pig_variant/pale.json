@@ -1,0 +1,15 @@
+{
+  "asset_id": "earthly_mobs:entity/pig/pale_pig",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": [
+          "minecraft:snowy_plains",
+          "minecraft:pale_garden"
+        ]
+      },
+      "priority": 2
+    }
+  ]
+}

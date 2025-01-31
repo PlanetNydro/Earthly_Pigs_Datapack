@@ -1,0 +1,12 @@
+{
+  "asset_id": "earthly_mobs:entity/pig/muddy_pig",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:sunflower_plains"
+      },
+      "priority": 1
+    }
+  ]
+}

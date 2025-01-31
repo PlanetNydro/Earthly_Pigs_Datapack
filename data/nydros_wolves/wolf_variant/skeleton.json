@@ -1,6 +1,16 @@
 {
-  "angry_texture": "nydros_wolves:entity/wolf/wolf_skeleton_angry",
-  "biomes": "minecraft:desert",
-  "tame_texture": "nydros_wolves:entity/wolf/wolf_skeleton_tame",
-  "wild_texture": "nydros_wolves:entity/wolf/wolf_skeleton"
+  "assets": {
+    "angry": "nydros_wolves:entity/wolf/wolf_skeleton_angry",
+    "tame": "nydros_wolves:entity/wolf/wolf_skeleton_tame",
+    "wild": "nydros_wolves:entity/wolf/wolf_skeleton"
+  },
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:desert"
+      },
+      "priority": 1
+    }
+  ]
 }

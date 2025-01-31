@@ -1,7 +1,0 @@
-{
-  "biomes": [
-    "minecraft:swamp",
-    "minecraft:mangrove_swamp"
-  ],
-  "texture": "earthly_pigs:entity/pig/spotted_pig"
-}

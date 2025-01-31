@@ -1,0 +1,8 @@
+{
+  "asset_id": "earthly_mobs:entity/cow/cookie_cow",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

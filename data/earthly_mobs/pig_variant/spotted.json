@@ -1,0 +1,15 @@
+{
+  "asset_id": "earthly_mobs:entity/pig/spotted_pig",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": [
+          "minecraft:swamp",
+          "minecraft:mangrove_swamp"
+        ]
+      },
+      "priority": 1
+    }
+  ]
+}
