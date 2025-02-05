@@ -1,9 +1,13 @@
 {
-  "asset_id": "earthly_mobs:entity/cow/umbra_cow",
+  "asset_id": "earthly_mobs:entity/cow/wooly_cow",
   "model": "cold",
   "spawn_conditions": [
     {
-      "priority": 0
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:snowy_plains"
+      },
+      "priority": 2
     },
     {
       "condition": {

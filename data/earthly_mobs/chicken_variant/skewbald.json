@@ -1,0 +1,8 @@
+{
+  "asset_id": "earthly_mobs:entity/chicken/skewbald_chicken",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

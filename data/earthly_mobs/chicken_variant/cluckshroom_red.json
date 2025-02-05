@@ -1,18 +1,17 @@
 {
-  "asset_id": "earthly_mobs:entity/cow/wolly_cow",
-  "model": "cold",
+  "asset_id": "earthly_mobs:entity/chicken/cluckshroom_red_chicken",
   "spawn_conditions": [
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "minecraft:snowy_plains"
+        "biomes": "minecraft:mushroom_fields"
       },
       "priority": 2
     },
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "#minecraft:spawns_cold_variant_farm_animals"
+        "biomes": "minecraft:dark_forest"
       },
       "priority": 1
     }

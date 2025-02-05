@@ -1,0 +1,9 @@
+{
+  "asset_id": "earthly_mobs:entity/chicken/fancy_chicken",
+  "model": "cold",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}
