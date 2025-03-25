@@ -1,0 +1,57 @@
+{
+    "parent": "earthly_mobs:journal/chicken_root",
+    "criteria": {
+      "chicken": {
+        "conditions": {
+          "entity": {
+            "type": "minecraft:chicken",
+            "components": {
+              "minecraft:chicken/variant": "earthly_mobs:cluckshroom_red"
+            }
+          }
+        },
+        "trigger": "minecraft:player_interacted_with_entity"
+      },
+      "hit": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:chicken",
+            "components": {
+              "minecraft:chicken/variant": "earthly_mobs:cluckshroom_red"
+            }
+          }
+        }
+      }
+    },
+    "display": {
+      "description": [
+      "Biomes: Dark Forests and Mushroom Fields \n\n",
+      "Some years ago, far-flung explorers discovered a rare strange chicken covered in mushrooms. The Cluckshroom, as it has come to be named, is a rare subspecies of chicken. Is it delicious? Only time will tell..."
+    ],
+      "frame": "task",
+      "icon": {
+        "components": {
+          "minecraft:item_model": "earthly_mobs:chicken_icon",
+          "minecraft:custom_model_data": {
+            "floats": [
+             10
+            ]
+          }
+        },
+        "count": 1,
+        "id": "minecraft:chicken_spawn_egg"
+      },
+      "title": "Cluckshroom",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "requirements": [
+      [
+      "chicken",
+      "hit"
+    ]
+    ],
+    "sends_telemetry_event": false
+  }

@@ -1,0 +1,57 @@
+{
+    "parent": "earthly_mobs:journal/chicken_root",
+    "criteria": {
+      "chicken": {
+        "conditions": {
+          "entity": {
+            "type": "minecraft:chicken",
+            "components": {
+              "minecraft:chicken/variant": "earthly_mobs:bronzed"
+            }
+          }
+        },
+        "trigger": "minecraft:player_interacted_with_entity"
+      },
+      "hit": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:chicken",
+            "components": {
+              "minecraft:chicken/variant": "earthly_mobs:bronzed"
+            }
+          }
+        }
+      }
+    },
+    "display": {
+      "description": [
+      "Biomes: Default \n\n",
+      "A plucky bird who can cluck with the best of them, and a wonderful addition to any coop."
+    ],
+      "frame": "task",
+      "icon": {
+        "components": {
+          "minecraft:item_model": "earthly_mobs:chicken_icon",
+          "minecraft:custom_model_data": {
+            "floats": [
+             4
+            ]
+          }
+        },
+        "count": 1,
+        "id": "minecraft:chicken_spawn_egg"
+      },
+      "title": "Bronzed Chicken",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "requirements": [
+      [
+      "chicken",
+      "hit"
+    ]
+    ],
+    "sends_telemetry_event": false
+  }

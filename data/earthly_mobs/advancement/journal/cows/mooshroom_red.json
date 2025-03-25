@@ -1,0 +1,57 @@
+{
+  "parent": "earthly_mobs:journal/cow_root",
+  "criteria": {
+    "mooshroom": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:mooshroom",
+          "components": {
+            "minecraft:mooshroom/variant": "red"
+          }
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:mooshroom",
+          "components": {
+            "minecraft:mooshroom/variant": "red"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": [
+      "Biomes: Mushroom Fields \n\n",
+      ""
+    ],
+    "frame": "task",
+    "icon": {
+      "components": {
+        "minecraft:item_model": "earthly_mobs:cow_icon",
+        "minecraft:custom_model_data": {
+          "floats": [
+            11
+          ]
+        }
+      },
+      "count": 1,
+      "id": "minecraft:mooshroom_spawn_egg"
+    },
+    "title": "Red Mooshroom",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "mooshroom",
+      "hit"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

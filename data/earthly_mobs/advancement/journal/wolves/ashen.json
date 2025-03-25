@@ -1,0 +1,57 @@
+{
+    "parent": "earthly_mobs:journal/wolves/wolf_root",
+    "criteria": {
+      "wolf": {
+        "conditions": {
+          "entity": {
+            "type": "minecraft:wolf",
+            "components": {
+              "minecraft:wolf/variant": "minecraft:ashen"
+            }
+          }
+        },
+        "trigger": "minecraft:player_interacted_with_entity"
+      },
+      "hit": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:wolf",
+            "components": {
+              "minecraft:wolf/variant": "minecraft:ashen"
+            }
+          }
+        }
+      }
+    },
+    "display": {
+      "description": [
+      "Biomes: Snowy Taiga \n\n",
+      ""
+    ],
+      "frame": "task",
+      "icon": {
+        "components": {
+          "minecraft:item_model": "earthly_mobs:wolf_icon",
+          "minecraft:custom_model_data": {
+            "floats": [
+              1
+            ]
+          }
+        },
+        "count": 1,
+        "id": "minecraft:wolf_spawn_egg"
+      },
+      "title": "Ashen Wolf",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "requirements": [
+      [
+      "wolf",
+      "hit"
+    ]
+    ],
+    "sends_telemetry_event": false
+  }

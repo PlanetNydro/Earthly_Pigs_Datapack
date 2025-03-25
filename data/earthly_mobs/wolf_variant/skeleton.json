@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "angry": "earthly_mobs:entity/wolf/wolf_skeleton_angry",
+    "tame": "earthly_mobs:entity/wolf/wolf_skeleton_tame",
+    "wild": "earthly_mobs:entity/wolf/wolf_skeleton"
+  },
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:desert"
+      },
+      "priority": 2
+    }
+  ]
+}

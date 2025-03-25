@@ -1,0 +1,12 @@
+{
+  "asset_id": "earthly_mobs:entity/cow/moon_cow",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_end"
+      },
+      "priority": 2
+    }
+  ]
+}

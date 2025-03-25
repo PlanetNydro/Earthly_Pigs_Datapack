@@ -25,21 +25,6 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:brown_wool",
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "components": {
-                      "minecraft:cow/variant": "minecraft:warm"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
               "name": "minecraft:black_wool",
               "conditions": [
                 {

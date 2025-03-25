@@ -1,0 +1,57 @@
+{
+    "parent": "earthly_mobs:journal/cow_root",
+    "criteria": {
+      "cow": {
+        "conditions": {
+          "entity": {
+            "type": "minecraft:cow",
+            "components": {
+              "minecraft:cow/variant": "earthly_mobs:moolip"
+            }
+          }
+        },
+        "trigger": "minecraft:player_interacted_with_entity"
+      },
+      "hit": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:cow",
+            "components": {
+              "minecraft:cow/variant": "earthly_mobs:moolip"
+            }
+          }
+        }
+      }
+    },
+    "display": {
+      "description": [
+      "Biomes: Cherry Grove and Flower Forest \n\n",
+      "Moolips appreciate gentle care, but don't mind an occasional shearing when their flowers grow too big."
+    ],
+      "frame": "task",
+      "icon": {
+        "components": {
+          "minecraft:item_model": "earthly_mobs:cow_icon",
+          "minecraft:custom_model_data": {
+            "floats": [
+             17
+            ]
+          }
+        },
+        "count": 1,
+        "id": "minecraft:cow_spawn_egg"
+      },
+      "title": "Moolip Cow",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "requirements": [
+      [
+      "cow",
+      "hit"
+    ]
+    ],
+    "sends_telemetry_event": false
+  }

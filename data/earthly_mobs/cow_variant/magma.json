@@ -7,7 +7,7 @@
         "type": "minecraft:biome",
         "biomes": "minecraft:basalt_deltas"
       },
-      "priority": 1
+      "priority": 2
     }
   ]
 }

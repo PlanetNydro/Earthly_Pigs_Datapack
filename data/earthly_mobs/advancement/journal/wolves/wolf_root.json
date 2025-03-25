@@ -1,0 +1,40 @@
+{
+  "parent": "earthly_mobs:journal/root",
+  "criteria": {
+    "wolf": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wolf"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wolf"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": "",
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wolf_spawn_egg"
+    },
+    "title": "Wolves",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "wolf",
+      "hit"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

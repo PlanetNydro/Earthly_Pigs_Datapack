@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mud",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "earthly_mobs:mud_bucket",
+                "minecraft:item_name": "Bucket of Mud",
+                "minecraft:equippable": {
+                  "slot": "saddle",
+                  
+                  "equip_sound": "minecraft:block.mud.step",
+                  "asset_id": "earthly_mobs:mud",
+                  "allowed_entities": "minecraft:pig",
+                  "equip_on_interact": true
+                },
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

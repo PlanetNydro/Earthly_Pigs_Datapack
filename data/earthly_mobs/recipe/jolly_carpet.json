@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "carpet",
+  "ingredients": [
+    "minecraft:green_carpet",
+    "minecraft:sweet_berries"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "earthly_mobs:jolly_carpet",
+      "minecraft:item_name": "Jolly Carpet",
+      "minecraft:equippable": {
+        "slot": "body",
+        "asset_id": "earthly_mobs:jolly_carpet",
+        "allowed_entities": [
+          "minecraft:llama",
+          "minecraft:trader_llama"
+        ]
+      }
+    },
+    "count": 1,
+    "id": "minecraft:green_carpet"
+  }
+}

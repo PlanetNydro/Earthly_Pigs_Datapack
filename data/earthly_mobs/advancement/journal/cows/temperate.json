@@ -1,0 +1,57 @@
+{
+  "parent": "earthly_mobs:journal/cow_root",
+  "criteria": {
+    "cow": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cow",
+          "components": {
+            "minecraft:cow/variant": "minecraft:temperate"
+          }
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cow",
+          "components": {
+            "minecraft:cow/variant": "minecraft:temperate"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": [
+      "Biomes: Default \n\n",
+      "Whether one is in need of leather, a full belly, relief from afflictions or simply companionship, a cow can provide."
+    ],
+    "frame": "task",
+    "icon": {
+      "components": {
+        "minecraft:item_model": "earthly_mobs:cow_icon",
+        "minecraft:custom_model_data": {
+          "floats": [
+            0
+          ]
+        }
+      },
+      "count": 1,
+      "id": "minecraft:cow_spawn_egg"
+    },
+    "title": "Temperate Cow",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "cow",
+      "hit"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

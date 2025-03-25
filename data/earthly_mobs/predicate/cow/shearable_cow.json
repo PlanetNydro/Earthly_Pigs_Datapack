@@ -1,0 +1,46 @@
+{
+  "condition": "minecraft:any_of",
+        "terms": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cow",
+              "components": {
+                "minecraft:cow/variant": "earthly_mobs:umbra"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cow",
+              "components": {
+                "minecraft:cow/variant": "earthly_mobs:wooly"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cow",
+              "components": {
+                "minecraft:cow/variant": "earthly_mobs:moobloom"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cow",
+              "components": {
+                "minecraft:cow/variant": "earthly_mobs:moolip"
+              }
+            }
+          }
+        ]
+      }
+    

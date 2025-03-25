@@ -1,0 +1,12 @@
+{
+  "asset_id": "earthly_mobs:entity/pig/muddy_pig_dry",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:the_void"
+      },
+      "priority": 1
+    }
+  ]
+}

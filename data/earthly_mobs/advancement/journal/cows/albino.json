@@ -1,0 +1,57 @@
+{
+    "parent": "earthly_mobs:journal/cow_root",
+    "criteria": {
+      "cow": {
+        "conditions": {
+          "entity": {
+            "type": "minecraft:cow",
+            "components": {
+              "minecraft:cow/variant": "earthly_mobs:albino"
+            }
+          }
+        },
+        "trigger": "minecraft:player_interacted_with_entity"
+      },
+      "hit": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:cow",
+            "components": {
+              "minecraft:cow/variant": "earthly_mobs:albino"
+            }
+          }
+        }
+      }
+    },
+    "display": {
+      "description": [
+      "Biomes: Default, Pale Garden \n\n",
+      "Paleness is quite rare in animals."
+    ],
+      "frame": "task",
+      "icon": {
+        "components": {
+          "minecraft:item_model": "earthly_mobs:cow_icon",
+          "minecraft:custom_model_data": {
+            "floats": [
+             3
+            ]
+          }
+        },
+        "count": 1,
+        "id": "minecraft:cow_spawn_egg"
+      },
+      "title": "Albino Cow",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "requirements": [
+      [
+      "cow",
+      "hit"
+    ]
+    ],
+    "sends_telemetry_event": false
+  }

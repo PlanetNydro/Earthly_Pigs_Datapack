@@ -1,0 +1,35 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:mud",
+                "minecraft:muddy_mangrove_roots"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:pig",
+        "location": {
+          "biomes": "#earthly_mobs:dries_muddy_pigs"
+        },
+        "components": {
+          "minecraft:pig/variant": "earthly_mobs:muddy"
+        }
+      }
+    }
+  ]
+}

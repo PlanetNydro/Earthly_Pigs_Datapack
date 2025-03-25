@@ -1,0 +1,82 @@
+{
+  "parent": "earthly_mobs:journal/cow_root",
+  "criteria": {
+    "cow": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cow",
+          "components": {
+            "minecraft:cow/variant": "earthly_mobs:umbra"
+          }
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cow",
+          "components": {
+            "minecraft:cow/variant": "earthly_mobs:umbra"
+          }
+        }
+      }
+    },
+    "cow_shear": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cow",
+          "components": {
+            "minecraft:cow/variant": "earthly_mobs:umbra_sheared"
+          }
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "hit_shear": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cow",
+          "components": {
+            "minecraft:cow/variant": "earthly_mobs:umbra_sheared"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": [
+    "Biomes: Default and Cold Biomes \n\n",
+    "This cow has long dark hair and probably lots of feelings.",
+    "\nThe umbra cow's coat can be sheared for gorgeous black wool that can be used to craft."
+  ],
+    "frame": "task",
+    "icon": {
+      "components": {
+        "minecraft:item_model": "earthly_mobs:cow_icon",
+        "minecraft:custom_model_data": {
+          "floats": [
+           10
+          ]
+        }
+      },
+      "count": 1,
+      "id": "minecraft:cow_spawn_egg"
+    },
+    "title": "Umbra Cow",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "requirements": [
+    [
+    "cow",
+    "hit",
+    "cow_shear",
+    "hit_shear"
+  ]
+  ],
+  "sends_telemetry_event": false
+}

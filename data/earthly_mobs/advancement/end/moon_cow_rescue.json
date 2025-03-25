@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:end/enter_end_gateway",
+  "criteria": {
+    "fed_cow": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cow",
+          "location": {
+            "dimension": "minecraft:overworld"
+          },
+          "components": {
+            "minecraft:cow/variant": "earthly_mobs:moon"
+          }
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": "Bring a Moon cow home from the Outer End",
+    "frame": "challenge",
+    "icon": {
+      "components": {
+        "minecraft:item_model": "earthly_mobs:cheese"
+      },
+      "count": 1,
+      "id": "minecraft:end_stone"
+    },
+    "title": "Outer End Rescue",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "fed_cow"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

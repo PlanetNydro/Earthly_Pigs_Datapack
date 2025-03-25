@@ -1,9 +1,43 @@
-# Earthly Pigs Datapack
- A minecraft datapack that adds new pig variants
+# Earthly Mobs Datapack
+ A minecraft datapack that adds new mob variants from minecraft earth
 
-This data pack adds uses the new pig variants to test out some new features in the latest snapshot.
+Earthly Mobs is a datapack that seeks to bring back some of the lost mob variants that existed in minecraft earth. It currently adds 28 new mobs, several of which have some new properties!
 
-Currently only works with snapshot 25w02a
+Pigs:
+- Mottled Pig: All Forests
+- Muddy Pig: Sunflower Plains
+- Pale Pig: Snowy Plains and Pale Garden
+- Piebald Pig: All Forests
+- Pink-Footed Pig: All Forests
+- Sooty Pig: Dark Forest
+- Spotted Pig: Swamp and Mangrove Swamp
+
+Cows:
+- Albino Cow: Default Biomes and Pale Garden
+- Ashen Cow: Default Biomes
+- Cookie Cow: Default Biomes
+- Cream Cow: Default Biomes
+- Dairy Cow: Default Biomes
+- Pinto Cow: Default Biomes
+- Sunset Cow: Warm Biomes
+- Umbra Cow: Cold and Default Biomes
+- Wooly Cow: Cold Biomes and Snowy Plains
+- Moobloom: Sunflower Plains and Flower Forest
+- Moolip: Cherry Grove and Flower Forest
+
+Chickens:
+- Amber Chicken: Default Biomes
+- Bronzed Chicken: Default Biomes
+- Cluckshroom: Dark Forest and Mushroom Fields
+- Fancy Chicken: Default Biomes
+- Gold Crested Chicken: Default Biomes
+- Midnight Chicken: Default Biomes
+- Skewbald Chicken: Default Biomes
+- Stormy Chicken: Default Biomes
+  
+Wolves:
+- Skeleton Wolf: Desert
+
 
 [PlanetMinecraft Page](https://www.planetminecraft.com/data-pack/earthly-pigs-25w02a/)
 

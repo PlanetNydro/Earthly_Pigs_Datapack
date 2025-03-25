@@ -1,0 +1,57 @@
+{
+    "parent": "earthly_mobs:journal/cow_root",
+    "criteria": {
+      "cow": {
+        "conditions": {
+          "entity": {
+            "type": "minecraft:cow",
+            "components": {
+              "minecraft:cow/variant": "earthly_mobs:sunset"
+            }
+          }
+        },
+        "trigger": "minecraft:player_interacted_with_entity"
+      },
+      "hit": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:cow",
+            "components": {
+              "minecraft:cow/variant": "earthly_mobs:sunset"
+            }
+          }
+        }
+      }
+    },
+    "display": {
+      "description": [
+      "Biomes: Warm Biomes \n\n",
+      "A golden grand addition to any herd."
+    ],
+      "frame": "task",
+      "icon": {
+        "components": {
+          "minecraft:item_model": "earthly_mobs:cow_icon",
+          "minecraft:custom_model_data": {
+            "floats": [
+             9
+            ]
+          }
+        },
+        "count": 1,
+        "id": "minecraft:cow_spawn_egg"
+      },
+      "title": "Sunset Cow",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "requirements": [
+      [
+      "cow",
+      "hit"
+    ]
+    ],
+    "sends_telemetry_event": false
+  }

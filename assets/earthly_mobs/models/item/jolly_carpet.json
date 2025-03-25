@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "earthly_mobs:item/jolly_carpet"
+  }
+}

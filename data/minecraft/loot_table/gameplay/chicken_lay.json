@@ -15,9 +15,100 @@
                   "entity": "this",
                   "predicate": {
                     "components": {
-                      "minecraft:chicken/variant": "minecraft:warm"
+                      "minecraft:chicken/variant": "earthly_mobs:cluckshroom_red"
                     }
                   }
+                }
+              ],
+              "name": "minecraft:red_mushroom"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "earthly_mobs:gameplay/random_egg",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "components": {
+                      "minecraft:chicken/variant": "earthly_mobs:fancy"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "components": {
+                          "minecraft:chicken/variant": "minecraft:temperate"
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "components": {
+                          "minecraft:chicken/variant": "earthly_mobs:gold_crested"
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "components": {
+                          "minecraft:chicken/variant": "earthly_mobs:skewbald"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "name": "minecraft:egg"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "components": {
+                          "minecraft:chicken/variant": "minecraft:warm"
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "components": {
+                          "minecraft:chicken/variant": "earthly_mobs:amber"
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "components": {
+                          "minecraft:chicken/variant": "earthly_mobs:bronzed"
+                        }
+                      }
+                    }
+                  ]
                 }
               ],
               "name": "minecraft:brown_egg"
@@ -26,20 +117,39 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "components": {
-                      "minecraft:chicken/variant": "minecraft:cold"
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "components": {
+                          "minecraft:chicken/variant": "minecraft:cold"
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "components": {
+                          "minecraft:chicken/variant": "earthly_mobs:midnight"
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "components": {
+                          "minecraft:chicken/variant": "earthly_mobs:stormy"
+                        }
+                      }
                     }
-                  }
+                  ]
                 }
               ],
               "name": "minecraft:blue_egg"
-            },
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:egg"
             }
           ]
         }

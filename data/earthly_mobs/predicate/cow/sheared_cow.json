@@ -1,0 +1,26 @@
+{
+  "condition": "minecraft:any_of",
+        "terms": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cow",
+              "components": {
+                "minecraft:cow/variant": "earthly_mobs:umbra_sheared"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cow",
+              "components": {
+                "minecraft:cow/variant": "earthly_mobs:wooly_sheared"
+              }
+            }
+          }
+        ]
+      }
+    

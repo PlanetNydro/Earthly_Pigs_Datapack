@@ -1,0 +1,77 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "earthly_mobs:item/cheese"
+    },
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "entries": [
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "earthly_mobs:item/cheese"
+          },
+          "threshold": 0.1875
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "earthly_mobs:item/cheese_01"
+          },
+          "threshold": 0.375
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "earthly_mobs:item/cheese_02"
+          },
+          "threshold": 0.5625
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "earthly_mobs:item/cheese_03"
+          },
+          "threshold": 0.75
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "earthly_mobs:item/cheese_04"
+          },
+          "threshold": 0.9375
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "earthly_mobs:item/cheese_05"
+          },
+          "threshold": 1.125
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "earthly_mobs:item/cheese_06"
+          },
+          "threshold": 1.3125
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "earthly_mobs:item/cheese_07"
+          },
+          "threshold": 1.5
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "earthly_mobs:item/cheese"
+      },
+      "property": "minecraft:use_duration",
+      "scale": 0.05
+    },
+    "property": "minecraft:using_item"
+  }
+}

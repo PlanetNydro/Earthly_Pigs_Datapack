@@ -1,0 +1,81 @@
+{
+    "parent": "earthly_mobs:journal/pig_root",
+    "criteria": {
+      "pig": {
+        "conditions": {
+          "entity": {
+            "type": "minecraft:pig",
+            "components": {
+              "minecraft:pig/variant": "earthly_mobs:muddy"
+            }
+          }
+        },
+        "trigger": "minecraft:player_interacted_with_entity"
+      },
+      "hit": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:pig",
+            "components": {
+              "minecraft:pig/variant": "earthly_mobs:muddy"
+            }
+          }
+        }
+      },
+      "pig_dry": {
+        "conditions": {
+          "entity": {
+            "type": "minecraft:pig",
+            "components": {
+              "minecraft:pig/variant": "earthly_mobs:muddy_dried"
+            }
+          }
+        },
+        "trigger": "minecraft:player_interacted_with_entity"
+      },
+      "hit_dry": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:pig",
+            "components": {
+              "minecraft:pig/variant": "earthly_mobs:muddy_dried"
+            }
+          }
+        }
+      }
+    },
+    "display": {
+      "description": [
+      "Biomes: Sunflower Plains \n\n",
+      "The Muddy Pig is a mud bath connoisseur. You wouldn't know it at first glance, but they have a great sense of style, too."
+    ],
+      "frame": "task",
+      "icon": {
+        "components": {
+          "minecraft:item_model": "earthly_mobs:pig_icon",
+          "minecraft:custom_model_data": {
+            "floats": [
+              4
+            ]
+          }
+        },
+        "count": 1,
+        "id": "minecraft:pig_spawn_egg"
+      },
+      "title": "Muddy Pig",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "requirements": [
+      [
+      "pig",
+      "pig_dry",
+      "hit",
+      "hit_dry"
+    ]
+    ],
+    "sends_telemetry_event": false
+  }

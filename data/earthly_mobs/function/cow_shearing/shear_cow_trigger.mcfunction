@@ -1,0 +1,3 @@
+execute as @s at @s anchored eyes facing entity @e[type=minecraft:cow,predicate=earthly_mobs:cow/shearable_cow,sort=nearest,limit=1] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.3] as @e[predicate=earthly_mobs:cow/shearable_cow,sort=nearest,limit=1] run function earthly_mobs:cow_shearing/shear_cow_split
+
+advancement revoke @s only earthly_mobs:triggers/shear_cow

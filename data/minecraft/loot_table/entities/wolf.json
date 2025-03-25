@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 2,
+                  "min": 1
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:bone"
+          }
+        ],
+        "rolls": 1,
+        "conditions": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wolf",
+              "components": {
+                "minecraft:wolf/variant": "earthly_mobs:skeleton"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:entities/wolf"
+  }

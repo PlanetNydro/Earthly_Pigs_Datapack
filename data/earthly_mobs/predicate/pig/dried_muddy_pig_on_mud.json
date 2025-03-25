@@ -1,0 +1,19 @@
+ {"condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:pig",
+          "components": {
+            "minecraft:pig/variant": "earthly_mobs:muddy_dried"
+          },
+          
+        "stepping_on": {
+          "block": {
+            "blocks": [
+              "minecraft:mud",
+              "minecraft:muddy_mangrove_roots"
+            ]
+          }
+        }
+        }
+     
+}

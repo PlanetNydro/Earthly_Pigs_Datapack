@@ -1,0 +1,57 @@
+{
+    "parent": "earthly_mobs:journal/wolves/wolf_root",
+    "criteria": {
+      "wolf": {
+        "conditions": {
+          "entity": {
+            "type": "minecraft:wolf",
+            "components": {
+              "minecraft:wolf/variant": "earthly_mobs:skeleton"
+            }
+          }
+        },
+        "trigger": "minecraft:player_interacted_with_entity"
+      },
+      "hit": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:wolf",
+            "components": {
+              "minecraft:wolf/variant": "earthly_mobs:skeleton"
+            }
+          }
+        }
+      }
+    },
+    "display": {
+      "description": [
+      "Biomes: Desert \n\n",
+      "No bones about it, this wolf is scary."
+    ],
+      "frame": "task",
+      "icon": {
+        "components": {
+          "minecraft:item_model": "earthly_mobs:wolf_icon",
+          "minecraft:custom_model_data": {
+            "floats": [
+              9
+            ]
+          }
+        },
+        "count": 1,
+        "id": "minecraft:wolf_spawn_egg"
+      },
+      "title": "Skeleton Wolf",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "requirements": [
+      [
+      "wolf",
+      "hit"
+    ]
+    ],
+    "sends_telemetry_event": false
+  }

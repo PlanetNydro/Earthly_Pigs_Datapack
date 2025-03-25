@@ -1,0 +1,13 @@
+{
+  "asset_id": "earthly_mobs:entity/cow/wooly_sheared_cow",
+  "model": "cold",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:the_void"
+      },
+      "priority": 1
+    }
+  ]
+}

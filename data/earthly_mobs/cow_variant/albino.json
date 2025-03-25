@@ -3,6 +3,13 @@
   "spawn_conditions": [
     {
       "priority": 0
+    },
+    { 
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:pale_garden"
+      },
+      "priority": 1
     }
   ]
 }

@@ -1,0 +1,25 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:pig",
+          "nbt": "{equipment: {saddle:{count: 1, id:\"minecraft:mud\"}}}"
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "components": {
+              "minecraft:pig/variant": "minecraft:temperate"
+            }
+          }
+        }
+      }
+    ]
+  }

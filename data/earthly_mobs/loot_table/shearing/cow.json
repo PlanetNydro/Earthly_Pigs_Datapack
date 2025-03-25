@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:shearing",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "minecraft:cow",
+                    "components": {
+                      "minecraft:cow/variant": "earthly_mobs:wooly"
+                    }
+                  }
+                }
+              ],
+              "value": "earthly_mobs:shearing/cow/wooly"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "minecraft:cow",
+                    "components": {
+                      "minecraft:cow/variant": "earthly_mobs:umbra"
+                    }
+                  }
+                }
+              ],
+              "value": "earthly_mobs:shearing/cow/umbra"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:dandelion",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "minecraft:cow",
+                    "components": {
+                      "minecraft:cow/variant": "earthly_mobs:moobloom"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:pink_tulip",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "minecraft:cow",
+                    "components": {
+                      "minecraft:cow/variant": "earthly_mobs:moolip"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}
