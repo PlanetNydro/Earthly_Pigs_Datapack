@@ -1,6 +1,6 @@
 {
     "model": {
       "type": "minecraft:model",
-      "model": "earthly_mobs:icon/journal_icon"
+      "model": "earthly_mobs:item/journal_icon"
     }
   }

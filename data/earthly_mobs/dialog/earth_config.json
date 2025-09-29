@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Earthly Mobs: Config",
+  "external_title": "Earthly Mobs Config",
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:book",
+        "components": {
+          "minecraft:item_model": "earthly_mobs:journal_icon"
+        }
+      },
+      "description": {
+        "contents": "<- If this doesn't render, you don't have the resource pack installed correctly"
+      },
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Click the buttons below to toggle the datapack settings"
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": true,
+  "exit_action": {
+    "label": "Done"
+  },
+  "actions": [
+    {
+      "label": "Wooly Cow Shearing",
+      "tooltip": "Allows you to shear wooly cows by punching them with shears",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function earthly_mobs:config/toggle_shear_wooly_cows"
+      }
+    },
+    {
+      "label": "Flower Cow Shearing",
+      "tooltip": "Allows you to shear flower cows by punching them with shears, turning them back into regular cows",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function earthly_mobs:config/toggle_shear_flower_cows"
+      }
+    },
+    {
+      "label": "Responsive Muddy Pigs",
+      "tooltip": "Makes muddy pigs dry out in warm biomes, restore their mud when standing on it, and lose their mud when in water",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function earthly_mobs:toggle_muddy_pig_changes"
+      }
+    },
+    {
+      "label": "Check Current Settings",
+      "tooltip": "I can't figure out how to make the buttons say if its enabled or not so this is the next best thing",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function earthly_mobs:config/config_menu"
+      }
+    }
+  ]
+}
