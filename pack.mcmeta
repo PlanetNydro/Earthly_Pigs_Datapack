@@ -1,9 +1,14 @@
+
 {
   "pack": {
     "description": [
       "Adds in lost variants from Minecraft Earth ",
       "Made by PlanetNydro"
     ],
-    "pack_format": 81
+    "max_format": 94,
+    "min_format": [
+      94,
+      1
+    ]
   }
 }

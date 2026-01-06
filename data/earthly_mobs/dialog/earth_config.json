@@ -49,7 +49,7 @@
       "tooltip": "Makes muddy pigs dry out in warm biomes, restore their mud when standing on it, and lose their mud when in water",
       "action": {
         "type": "minecraft:run_command",
-        "command": "function earthly_mobs:toggle_muddy_pig_changes"
+        "command": "function earthly_mobs:config/toggle_muddy_pig_changes"
       }
     },
     {
