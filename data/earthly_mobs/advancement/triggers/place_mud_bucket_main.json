@@ -1,0 +1,57 @@
+{
+  "criteria": {
+    "use_bucket": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "gamemode": [
+              "survival"
+            ]
+          },
+          "slots": {
+            "weapon.mainhand": {
+              "items": "minecraft:mud",
+              "components": {
+                "minecraft:equippable": {
+                  "slot": "saddle",
+                  "equip_sound": "minecraft:block.mud.step",
+                  "asset_id": "earthly_mobs:mud",
+                  "allowed_entities": "minecraft:pig",
+                  "equip_on_interact": true
+                }
+              }
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:mud",
+              "components": {
+                "minecraft:equippable": {
+                  "slot": "saddle",
+                  "equip_sound": "minecraft:block.mud.step",
+                  "asset_id": "earthly_mobs:mud",
+                  "allowed_entities": "minecraft:pig",
+                  "equip_on_interact": true
+                }
+              },
+              "predicates": {}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_bucket"
+    ]
+  ],
+  "rewards": {
+    "function": "earthly_mobs:muddy_pig/place_mud_bucket_main"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "criteria": {
+    "use_bucket": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:mud",
+          "count": 1,
+          "components": {
+            "minecraft:equippable": {
+              "slot": "saddle",
+              "equip_sound": "minecraft:block.mud.step",
+              "asset_id": "earthly_mobs:mud",
+              "allowed_entities": "minecraft:pig",
+              "equip_on_interact": true
+            }
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "pig"
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "components": {
+                  "minecraft:pig/variant": "minecraft:temperate"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_bucket"
+    ]
+  ],
+  "rewards": {
+    "function": "earthly_mobs:muddy_pig/use_mud_bucket_bad"
+  }
+}

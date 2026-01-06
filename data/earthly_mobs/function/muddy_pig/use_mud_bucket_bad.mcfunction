@@ -1,0 +1,3 @@
+execute as @e[predicate=earthly_mobs:pig/reject_mud_bucket] run data merge entity @s {equipment: {saddle:{count: 0, id:"minecraft:air"}}}
+give @s mud[item_model="earthly_mobs:mud_bucket",item_name="Bucket of Mud",equippable={slot:"saddle",equip_sound:"block.mud.step",asset_id:"earthly_mobs:mud",allowed_entities:"minecraft:pig",equip_on_interact:true},max_stack_size=1]
+advancement revoke @s only earthly_mobs:triggers/use_mud_bucket_on_pig_bad
