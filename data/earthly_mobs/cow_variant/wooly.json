@@ -5,7 +5,7 @@
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "minecraft:snowy_plains"
+        "biomes": "#earthly_mobs:spawns_wooly_cows"
       },
       "priority": 2
     },

@@ -4,10 +4,9 @@
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": [
-          "minecraft:snowy_plains",
-          "minecraft:pale_garden"
-        ]
+        "biomes": 
+          "#earthly_mobs:spawns_pale_pigs"
+        
       },
       "priority": 2
     }

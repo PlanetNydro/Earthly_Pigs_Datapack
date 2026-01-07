@@ -4,7 +4,7 @@
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "#minecraft:is_end"
+        "biomes": "#earthly_mobs:spawns_moon_cows"
       },
       "priority": 2
     }

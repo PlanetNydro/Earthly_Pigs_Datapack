@@ -4,7 +4,7 @@
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "#minecraft:is_forest"
+        "biomes": "#earthly_mobs:spawns_forest_pigs"
       },
       "priority": 1
     }

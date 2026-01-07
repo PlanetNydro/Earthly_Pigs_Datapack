@@ -8,7 +8,7 @@
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "minecraft:desert"
+        "biomes": "#earthly_mobs:spawns_skeleton_wolves"
       },
       "priority": 2
     }

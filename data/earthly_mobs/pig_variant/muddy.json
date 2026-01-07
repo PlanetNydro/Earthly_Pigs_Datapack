@@ -4,7 +4,7 @@
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "minecraft:sunflower_plains"
+        "biomes": "#earthly_mobs:spawns_muddy_pigs"
       },
       "priority": 1
     }

@@ -4,10 +4,9 @@
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": [
-          "minecraft:cherry_grove",
-          "minecraft:flower_forest"
-        ]
+        "biomes": 
+          "#earthly_mobs:spawns_moolips"
+        
       },
       "priority": 1
     }

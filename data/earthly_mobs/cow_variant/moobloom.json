@@ -4,10 +4,9 @@
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": [
-          "minecraft:sunflower_plains",
-          "minecraft:flower_forest"
-        ]
+        "biomes": 
+          "#earthly_mobs:spawns_mooblooms"
+        
       },
       "priority": 1
     }

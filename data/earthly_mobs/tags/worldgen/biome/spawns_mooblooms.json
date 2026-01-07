@@ -1,0 +1,7 @@
+{
+  "values": [
+    "minecraft:sunflower_plains",
+    "minecraft:flower_forest",
+    "#c:is_flower_forest"
+  ]
+}

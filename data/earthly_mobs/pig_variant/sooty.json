@@ -4,7 +4,7 @@
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "minecraft:dark_forest"
+        "biomes": "#earthly_mobs:spawns_sooty_pigs"
       },
       "priority": 2
     }

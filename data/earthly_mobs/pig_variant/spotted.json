@@ -4,10 +4,7 @@
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": [
-          "minecraft:swamp",
-          "minecraft:mangrove_swamp"
-        ]
+        "biomes": "#earthly_mobs:spawns_spotted_pigs"
       },
       "priority": 1
     }

@@ -60,9 +60,10 @@ There is now a config menu on the pause screen! This way, you can toggle some of
 - Responsive Muddy Pigs: causes the mud on muddy pigs to interact with their enviroment. Their mud will dry out in warm biomes. Once dried out, they can be returned to their normal state by having them stand on mud or muddy roots. Standing on these blocks will also prevent them from drying out in the first place. Finally, they can have their mud washed off entirely by going for a swim, reverting them to temperate pigs.
 - Check Current Settings: this button lets you check what the previous three settings are at the moment. I would have liked to make their status visible in the config menu itself, but if there's a way to do that, I have no idea how.
 
+
 Technical Changes:
-For anyone wondering what this datapack does to the base game, here's a short list. Thought I should include this in case it interacts with other datapacks or if it might impact an existing farm you have in your world.
-- Added new "dries muddy pigs" biome tag
+Most variants work in a way that SHOULD allow them to accept biomes from other mods/datapacks, as far as I can tell.
+I don't know enough about how diffrent datapacks interact, especially when it comes to loot tables and world generation, to be able to say if some of the behind-the-scenes stuff in this datapack could interfere with others. I tested a couple and it seemed to be safe, but I'm listing the relevant information just in case.
 - Chicken, cow and wolf loot tables have been altered
 - Chicken egg laying loot table has been altered to include all new variants. Gold Crested and Skewbald chickens lay normal eggs, Amber and Bronzed chickens lay warm eggs, Midnight and Stormy chickens lay cold eggs, and Fancy chickens have a chance to lay any of them. Cluckshrooms are off doing their own thing laying red mushrooms.
 - Animals can now spawn on mycelium, basalt, and end stone
