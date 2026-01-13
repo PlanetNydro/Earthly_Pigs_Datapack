@@ -76,12 +76,25 @@ I don't know enough about how diffrent datapacks interact, especially when it co
 - Snowy Plains world generation has been altered so cows and pigs can spawn in groups of 4 
 
 
-[PlanetMinecraft Page](https://www.planetminecraft.com/data-pack/earthly-pigs-25w02a/)
+[Planet Minecraft Page](https://www.planetminecraft.com/data-pack/earthly-pigs-25w02a/)
 
-![pig_variants](https://github.com/user-attachments/assets/0e253194-d5e6-41db-be6f-bc0c2ffd2b82)
+[Modrinth Page](https://modrinth.com/datapack/nydro-earthly-mobs)
 
-![forest_pigs](https://github.com/user-attachments/assets/ce993748-abc4-47f8-a012-c44d88c54c56) | ![other_pigs](https://github.com/user-attachments/assets/b1486196-bfdf-476e-8579-f82a9b633eed)
-:-------------------------:|:-------------------------:
+<img width="1360" height="768" alt="dark forest" src="https://github.com/user-attachments/assets/eeff89ad-5322-4adb-be01-731dbbae5c7f" /><img width="1360" height="768" alt="flower cows" src="https://github.com/user-attachments/assets/ae5d9723-9220-4f58-826f-42657a7bc8bb" />
+
+<img width="1360" height="768" alt="cows" src="https://github.com/user-attachments/assets/205dbe81-37e9-4dbe-b148-28eea563f39b" />
+<img width="1360" height="768" alt="forest pigs 2" src="https://github.com/user-attachments/assets/2c378260-8dd3-4d07-8f31-160883df0ada" />
+
+<img width="1360" height="768" alt="chickens" src="https://github.com/user-attachments/assets/ac368692-ff62-40ae-87e1-6c63c73932cb" />
+<img width="1360" height="768" alt="muddy_pigs" src="https://github.com/user-attachments/assets/328c1959-62d7-401e-86f9-1fa65ee48a15" /><img width="1360" height="768" alt="pale" src="https://github.com/user-attachments/assets/7b91b269-3998-44ca-a7d6-1dd56886eb0e" />
+<img width="1360" height="768" alt="skeleton wolves" src="https://github.com/user-attachments/assets/f87e42bd-8cab-4a9d-b4ba-6594b5ccdb74" /><img width="1360" height="768" alt="swamp" src="https://github.com/user-attachments/assets/5eedcc11-e79b-42ea-b160-af185cbee88a" />
+
+<img width="1360" height="768" alt="wooly_cows" src="https://github.com/user-attachments/assets/668dac1f-5f01-4810-8e08-151e1db457c4" />
 
 
+<img width="1360" height="768" alt="jollies" src="https://github.com/user-attachments/assets/8d66100b-5ec9-4976-a3d2-fbd5d45c3acf" />
+
+
+<img width="1280" height="800" alt="Moon Cow" src="https://github.com/user-attachments/assets/feb74b5e-84ea-4335-8676-61daa599a327" />
+<img width="1280" height="800" alt="Magma Cow" src="https://github.com/user-attachments/assets/001a9b06-0daf-44a6-a143-2d80ca8a440f" />
 
