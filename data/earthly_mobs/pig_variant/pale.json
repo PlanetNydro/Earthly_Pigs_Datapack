@@ -1,5 +1,6 @@
 {
-  "asset_id": "earthly_mobs:entity/pig/pale_pig",
+  "asset_id": "earthly_mobs:entity/pig/pig_pale",
+  "baby_asset_id": "earthly_mobs:entity/pig/pig_pale_baby",
   "spawn_conditions": [
     {
       "condition": {

@@ -1,0 +1,82 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:chicken/variant",
+    "cases": [
+      {
+        "when": "earthly_mobs:cluckshroom_red",
+        "model": {
+          "type": "minecraft:model",
+          "model": "earthly_mobs:item/cluckshroom_egg"
+        }
+      },
+      {
+        "when": "earthly_mobs:amber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "earthly_mobs:item/amber_egg"
+        }
+      },
+      {
+        "when": "earthly_mobs:stormy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "earthly_mobs:item/custom_egg",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": 5786718
+            }
+          ]
+        }
+      },
+      {
+        "when": "earthly_mobs:skewbald",
+        "model": {
+          "type": "minecraft:model",
+          "model": "earthly_mobs:item/skewbald_egg"
+        }
+      },
+      {
+        "when": "earthly_mobs:midnight",
+        "model": {
+          "type": "minecraft:model",
+          "model": "earthly_mobs:item/midnight_egg"
+        }
+      },
+      {
+        "when": "earthly_mobs:gold_crested",
+        "model": {
+          "type": "minecraft:model",
+          "model": "earthly_mobs:item/custom_egg",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": 14255414
+            }
+          ]
+        }
+      },
+      {
+        "when": "earthly_mobs:fancy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "earthly_mobs:item/fancy_egg"
+        }
+      },
+      {
+        "when": "earthly_mobs:bronzed",
+        "model": {
+          "type": "minecraft:model",
+          "model": "earthly_mobs:item/bronzed_egg"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/egg",
+      "tints": []
+    }
+  }
+}

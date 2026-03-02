@@ -1,5 +1,6 @@
 {
-  "asset_id": "earthly_mobs:entity/cow/umbra_cow",
+  "asset_id": "earthly_mobs:entity/cow/cow_umbra",
+  "baby_asset_id": "earthly_mobs:entity/cow/cow_umbra_baby",
   "model": "cold",
   "spawn_conditions": [
     {

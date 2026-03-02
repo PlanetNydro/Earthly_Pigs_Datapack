@@ -1,5 +1,6 @@
 {
-  "asset_id": "earthly_mobs:entity/cow/albino_cow",
+  "asset_id": "earthly_mobs:entity/cow/cow_albino",
+  "baby_asset_id": "earthly_mobs:entity/cow/cow_albino_baby",
   "spawn_conditions": [
     {
       "priority": 0

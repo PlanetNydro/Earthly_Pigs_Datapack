@@ -1,5 +1,6 @@
 {
-  "asset_id": "earthly_mobs:entity/cow/pinto_cow",
+  "asset_id": "earthly_mobs:entity/cow/cow_pinto",
+  "baby_asset_id": "earthly_mobs:entity/cow/cow_pinto_baby",
   "spawn_conditions": [
     {
       "priority": 0

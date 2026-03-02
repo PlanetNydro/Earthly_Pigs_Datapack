@@ -4,6 +4,11 @@
     "tame": "earthly_mobs:entity/wolf/wolf_skeleton_tame",
     "wild": "earthly_mobs:entity/wolf/wolf_skeleton"
   },
+  "baby_assets": {
+    "angry": "earthly_mobs:entity/wolf/wolf_skeleton_angry_baby",
+    "tame": "earthly_mobs:entity/wolf/wolf_skeleton_tame_baby",
+    "wild": "earthly_mobs:entity/wolf/wolf_skeleton_baby"
+  },
   "spawn_conditions": [
     {
       "condition": {

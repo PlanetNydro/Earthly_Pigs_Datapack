@@ -9,7 +9,10 @@
     "result": {
       "components": {
         "minecraft:item_model": "earthly_mobs:mud_bucket",
-        "minecraft:item_name": "Bucket of Mud",
+        "minecraft:item_name": {
+        "translate": "item.earthly_mobs.mud_bucket",
+        "fallback": "Bucket of Mud"
+        },
         "minecraft:equippable": {
           "slot": "saddle",          
           

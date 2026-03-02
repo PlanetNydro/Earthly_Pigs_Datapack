@@ -1,5 +1,6 @@
 {
-  "asset_id": "earthly_mobs:entity/cow/wooly_cow",
+  "asset_id": "earthly_mobs:entity/cow/cow_wooly",
+  "baby_asset_id": "earthly_mobs:entity/cow/cow_wooly_baby",
   "model": "cold",
   "spawn_conditions": [
     {

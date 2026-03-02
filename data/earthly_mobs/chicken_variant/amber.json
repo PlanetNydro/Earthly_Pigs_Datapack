@@ -1,5 +1,6 @@
 {
-  "asset_id": "earthly_mobs:entity/chicken/amber_chicken",
+  "asset_id": "earthly_mobs:entity/chicken/chicken_amber",
+  "baby_asset_id": "earthly_mobs:entity/chicken/chicken_amber_baby",
   "spawn_conditions": [
     {
       "priority": 0

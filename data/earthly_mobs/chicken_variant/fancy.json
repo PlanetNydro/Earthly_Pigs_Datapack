@@ -1,5 +1,6 @@
 {
-  "asset_id": "earthly_mobs:entity/chicken/fancy_chicken",
+  "asset_id": "earthly_mobs:entity/chicken/chicken_fancy",
+  "baby_asset_id": "earthly_mobs:entity/chicken/chicken_fancy_baby",
   "model": "cold",
   "spawn_conditions": [
     {

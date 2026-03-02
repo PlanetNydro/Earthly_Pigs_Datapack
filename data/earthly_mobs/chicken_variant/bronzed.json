@@ -1,5 +1,6 @@
 {
-  "asset_id": "earthly_mobs:entity/chicken/bronzed_chicken",
+  "asset_id": "earthly_mobs:entity/chicken/chicken_bronzed",
+  "baby_asset_id": "earthly_mobs:entity/chicken/chicken_bronzed_baby",
   "spawn_conditions": [
     {
       "priority": 0

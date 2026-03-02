@@ -1,5 +1,6 @@
 {
-  "asset_id": "earthly_mobs:entity/cow/moobloom_cow",
+  "asset_id": "earthly_mobs:entity/cow/cow_moobloom",
+  "baby_asset_id": "earthly_mobs:entity/cow/cow_moobloom_baby",
   "spawn_conditions": [
     {
       "condition": {

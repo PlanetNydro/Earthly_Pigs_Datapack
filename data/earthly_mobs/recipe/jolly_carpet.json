@@ -9,7 +9,10 @@
   "result": {
     "components": {
       "minecraft:item_model": "earthly_mobs:jolly_carpet",
-      "minecraft:item_name": "Jolly Carpet",
+      "minecraft:item_name": {
+        "translate": "item.earthly_mobs.jolly_carpet",
+        "fallback": "Jolly Carpet"
+      },
       "minecraft:equippable": {
         "slot": "body",
         "asset_id": "earthly_mobs:jolly_carpet",

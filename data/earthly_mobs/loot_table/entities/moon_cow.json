@@ -20,7 +20,10 @@
                   "saturation": 2.4,
                   "can_always_eat": false
                 },
-                "minecraft:item_name": "Cheese",
+                "minecraft:item_name": {
+                  "translate": "item.earthly_mobs.cheese",
+                  "fallback": "Cheese"
+                },
                 "minecraft:item_model": "earthly_mobs:cheese"
               }
             },

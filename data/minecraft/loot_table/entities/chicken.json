@@ -36,7 +36,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "Fancy Feather",
+                "minecraft:item_name": {
+                  "translate": "item.earthly_mobs.fancy_feather",
+                  "fallback": "Fancy Feather"
+                },
                 "minecraft:custom_model_data": {
                   "floats": [
                     5055
