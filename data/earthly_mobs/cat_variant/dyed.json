@@ -1,0 +1,13 @@
+{
+  "asset_id": "earthly_mobs:entity/cat/cat_dyed",
+  "baby_asset_id": "earthly_mobs:entity/cat/cat_dyed_baby",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:the_void"
+      },
+      "priority": 1
+    }
+  ]
+}

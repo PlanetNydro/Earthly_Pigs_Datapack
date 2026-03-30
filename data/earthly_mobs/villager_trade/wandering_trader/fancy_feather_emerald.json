@@ -1,0 +1,19 @@
+{
+  "gives": {
+    "id": "minecraft:emerald"
+  },
+  "max_uses": 16,
+  "reputation_discount": 0.05,
+  "wants": {
+    "components": {
+      "minecraft:custom_model_data": {
+        "floats": [
+          5055
+        ],
+        "flags": []
+      }
+    },
+    "count": 6,
+    "id": "minecraft:feather"
+  }
+}

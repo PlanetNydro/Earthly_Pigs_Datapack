@@ -1,0 +1,58 @@
+{
+  "criteria": {
+    "sheared_cow": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:shears",
+              "count": 1
+            }
+          }
+        },
+        "entity": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:cow",
+                      "flags": {
+                        "is_baby": false
+                      },
+                      "components": {
+                        "minecraft:cow/variant": "earthly_mobs:umbra"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:cow",
+                      "flags": {
+                        "is_baby": false
+                      },
+                      "components": {
+                        "minecraft:cow/variant": "earthly_mobs:wooly"
+                      }
+                    }
+                  }
+                ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sheared_cow"
+    ]
+  ],
+  "rewards": {
+    "function": "earthly_mobs:cow_shearing/shear_fluffy_cow_trigger"
+  }
+}

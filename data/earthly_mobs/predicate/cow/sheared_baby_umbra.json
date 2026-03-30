@@ -1,0 +1,16 @@
+{
+  
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cow",
+              "flags": {
+                "is_baby": true
+              },
+              "components": {
+                "minecraft:cow/variant": "earthly_mobs:umbra_sheared"
+              }
+            }
+          
+      }
+    

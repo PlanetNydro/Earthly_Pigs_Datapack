@@ -11,6 +11,16 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_mud": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mud"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "earthly_mobs:mud_bucket"
@@ -28,7 +38,8 @@
     [
       "has_the_recipe",
       "has_bucket",
-      "has_the_recipe_2"
+      "has_the_recipe_2",
+      "has_mud"
     ]
   ],
   "rewards": {

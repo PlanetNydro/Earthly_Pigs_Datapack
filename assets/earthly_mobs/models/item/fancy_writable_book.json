@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "earthly_mobs:item/fancy_writable_book"
+    }
+}

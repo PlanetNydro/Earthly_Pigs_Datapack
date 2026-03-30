@@ -20,19 +20,7 @@
             "name": "minecraft:bone"
           }
         ],
-        "rolls": 1,
-        "conditions": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:wolf",
-              "components": {
-                "minecraft:wolf/variant": "earthly_mobs:skeleton"
-              }
-            }
-          }
-        ]
+        "rolls": 1
       }
     ],
     "random_sequence": "minecraft:entities/wolf"

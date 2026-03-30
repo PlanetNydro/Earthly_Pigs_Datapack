@@ -11,6 +11,16 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_green_carpet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:green_carpet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "earthly_mobs:jolly_carpet"
@@ -21,7 +31,8 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_sweet_berries"
+      "has_sweet_berries",
+      "has_green_carpet"
     ]
   ],
   "rewards": {

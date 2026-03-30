@@ -1,0 +1,22 @@
+
+{
+  "assets": {
+    "angry": "earthly_mobs:entity/wolf/wolf_mars_angry",
+    "tame": "earthly_mobs:entity/wolf/wolf_mars_tame",
+    "wild": "earthly_mobs:entity/wolf/wolf_mars"
+  },
+  "baby_assets": {
+    "angry": "earthly_mobs:entity/wolf/wolf_mars_angry_baby",
+    "tame": "earthly_mobs:entity/wolf/wolf_mars_tame_baby",
+    "wild": "earthly_mobs:entity/wolf/wolf_mars_baby"
+  },
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:the_void"
+      },
+      "priority": 1
+    }
+  ]
+}

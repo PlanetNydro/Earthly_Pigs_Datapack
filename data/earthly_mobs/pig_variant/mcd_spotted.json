@@ -1,0 +1,13 @@
+{
+  "asset_id": "earthly_mobs:entity/pig/pig_mcd_spotted",
+  "baby_asset_id": "earthly_mobs:entity/pig/pig_mcd_spotted_baby",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#earthly_mobs:spawns_spotted_pigs"
+      },
+      "priority": 1
+    }
+  ]
+}

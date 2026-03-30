@@ -1,0 +1,20 @@
+{
+  "gives": {
+    "id": "minecraft:egg",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.earthly_mobs.duck_egg",
+        "fallback": "Duck Egg"
+      },
+      "minecraft:chicken/variant": "earthly_mobs:duck",
+      "minecraft:item_model": "earthly_mobs:custom_egg"
+    }
+  },
+  "given_item_modifiers": [],
+  "max_uses": 16,
+  "reputation_discount": 0.05,
+  "wants": {
+    "count": 3,
+    "id": "minecraft:emerald"
+  }
+}

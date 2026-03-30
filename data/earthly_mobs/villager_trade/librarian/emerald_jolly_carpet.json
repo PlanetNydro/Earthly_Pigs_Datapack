@@ -1,0 +1,27 @@
+{
+  "gives": {
+    "components": {
+      "minecraft:item_model": "earthly_mobs:jolly_carpet",
+      "minecraft:item_name": {
+        "translate": "item.earthly_mobs.jolly_carpet",
+        "fallback": "Jolly Carpet"
+      },
+      "minecraft:equippable": {
+        "slot": "body",
+        "asset_id": "earthly_mobs:jolly_carpet",
+        "allowed_entities": [
+          "minecraft:llama",
+          "minecraft:trader_llama"
+        ]
+      }
+    },
+    "count": 1,
+    "id": "minecraft:green_carpet"
+  },
+  "max_uses": 5,
+  "reputation_discount": 0.05,
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 1
+  }
+}

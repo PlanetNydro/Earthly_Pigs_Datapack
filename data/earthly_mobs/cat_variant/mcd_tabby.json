@@ -1,0 +1,9 @@
+{
+  "asset_id": "earthly_mobs:entity/cat/cat_mcd_tabby",
+  "baby_asset_id": "earthly_mobs:entity/cat/cat_mcd_tabby_baby",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

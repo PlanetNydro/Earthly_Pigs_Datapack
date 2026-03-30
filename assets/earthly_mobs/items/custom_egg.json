@@ -71,6 +71,13 @@
           "type": "minecraft:model",
           "model": "earthly_mobs:item/bronzed_egg"
         }
+      },
+      {
+        "when": "earthly_mobs:duck",
+        "model": {
+          "type": "minecraft:model",
+          "model": "earthly_mobs:item/duck_egg"
+        }
       }
     ],
     "fallback": {

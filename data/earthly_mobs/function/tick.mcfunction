@@ -1,5 +1,6 @@
-# if Wooly Cow shearing is enabled, run that function
-execute if score ShearWoolyCows earthly_mobs_config matches 1 run function earthly_mobs:cow_shearing/shear_wooly_cow_tick
+# if Fluffy Cow shearing is enabled, run that function
+# still referred to as wooly cows in the scoreboard so it doesn't break anything
+execute if score ShearWoolyCows earthly_mobs_config matches 1 run function earthly_mobs:cow_shearing/shear_fluffy_cow_tick
 
 # if responsive muddy pigs is enabled, run that function
 execute if score MuddyPigChanges earthly_mobs_config matches 1 run function earthly_mobs:muddy_pig/muddy_pig_tick
@@ -10,3 +11,7 @@ execute as @e[type=minecraft:cow,tag=!MagmaCowFixed,nbt={variant:"earthly_mobs:m
 
 # update any moon cows to have their own loot table
 execute as @e[type=minecraft:cow,tag=!MoonCowFixed,nbt={variant:"earthly_mobs:moon"}] run data merge entity @s {DeathLootTable:"earthly_mobs:entities/moon_cow",Tags:["MoonCowFixed"]}
+
+# update any skeleton wolves to have their own loot table
+execute as @e[type=minecraft:wolf,tag=!SkeletonWolfLootFixed,nbt={variant:"earthly_mobs:skeleton"}] run data merge entity @s {DeathLootTable:"earthly_mobs:entities/skeleton_wolf",Tags:["SkeletonWolfLootFixed"]}
+

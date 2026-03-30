@@ -262,6 +262,34 @@
                   }
                 }
               ]
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "components": {
+                      "minecraft:chicken/variant": "earthly_mobs:duck"
+                    }
+                  }
+                }
+              ],
+              "name": "minecraft:egg",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:item_name": {
+                      "translate": "item.earthly_mobs.duck_egg",
+                      "fallback": "Duck Egg"
+                    },
+                    "minecraft:chicken/variant": "earthly_mobs:duck",
+                    "minecraft:item_model": "earthly_mobs:custom_egg"
+                  }
+                }
+              ]
             }
           ]
         }

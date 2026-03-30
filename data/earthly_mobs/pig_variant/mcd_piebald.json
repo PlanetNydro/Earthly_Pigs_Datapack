@@ -1,0 +1,13 @@
+{
+  "asset_id": "earthly_mobs:entity/pig/pig_mcd_piebald",
+  "baby_asset_id": "earthly_mobs:entity/pig/pig_mcd_piebald_baby",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:the_void"
+      },
+      "priority": 1
+    }
+  ]
+}

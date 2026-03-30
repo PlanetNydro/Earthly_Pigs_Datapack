@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "fed_baby_piebald": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "pig",
+          "flags": {
+            "is_baby": true
+          },
+          "components": {
+            "minecraft:pig/variant": "earthly_mobs:mcd_piebald"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fed_baby_piebald"
+    ]
+  ],
+  "rewards": {
+    "function": "earthly_mobs:mcd_piebald/mcd_piebald_trigger"
+  }
+}

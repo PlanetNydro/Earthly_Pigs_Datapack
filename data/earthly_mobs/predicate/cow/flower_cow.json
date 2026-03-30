@@ -6,6 +6,9 @@
         "entity": "this",
         "predicate": {
           "type": "minecraft:cow",
+              "flags": {
+                "is_baby": false
+              },
           "components": {
             "minecraft:cow/variant": "earthly_mobs:moobloom"
           }
@@ -16,6 +19,9 @@
         "entity": "this",
         "predicate": {
           "type": "minecraft:cow",
+              "flags": {
+                "is_baby": false
+              },
           "components": {
             "minecraft:cow/variant": "earthly_mobs:moolip"
           }

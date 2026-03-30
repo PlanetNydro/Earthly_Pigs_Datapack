@@ -29,11 +29,11 @@
   },
   "actions": [
     {
-      "label": "Wooly Cow Shearing",
-      "tooltip": "Allows you to shear wooly cows by punching them with shears",
+      "label": "Fluffy Cow Shearing",
+      "tooltip": "Allows you to shear wooly and umbra cows by punching them with shears",
       "action": {
         "type": "minecraft:run_command",
-        "command": "function earthly_mobs:config/toggle_shear_wooly_cows"
+        "command": "function earthly_mobs:config/toggle_shear_fluffy_cows"
       }
     },
     {

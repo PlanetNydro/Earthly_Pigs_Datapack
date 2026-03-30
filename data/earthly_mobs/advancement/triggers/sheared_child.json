@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "bred_fluffy_cow": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "components": {
+                    "minecraft:cow/variant": "earthly_mobs:wooly_sheared"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "components": {
+                    "minecraft:cow/variant": "earthly_mobs:umbra_sheared"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bred_fluffy_cow"
+    ]
+  ],
+  "rewards": {
+    "function": "earthly_mobs:cow_shearing/sheared_child_wait"
+  }
+}
