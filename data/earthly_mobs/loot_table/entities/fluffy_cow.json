@@ -10,20 +10,49 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:red_mushroom",
+              "name": "minecraft:brown_wool",
               "conditions": [
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "components": {
-                      "minecraft:chicken/variant": "earthly_mobs:cluckshroom_red"
+                      "minecraft:cow/variant": "earthly_mobs:wooly"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:black_wool",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "components": {
+                      "minecraft:cow/variant": "earthly_mobs:umbra"
                     }
                   }
                 }
               ]
             }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "CustomMobDrops"
+            },
+            "score": "earthly_mobs_config"
+          },
+          "range": 1
         }
       ]
     },
@@ -33,32 +62,6 @@
         {
           "type": "minecraft:item",
           "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_name": {
-                  "translate": "item.earthly_mobs.fancy_feather",
-                  "fallback": "Fancy Feather"
-                },
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    5055
-                  ],
-                  "flags": []
-                }
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "components": {
-                      "minecraft:chicken/variant": "earthly_mobs:fancy"
-                    }
-                  }
-                }
-              ]
-            },
             {
               "add": false,
               "count": {
@@ -78,7 +81,7 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "minecraft:feather"
+          "name": "minecraft:leather"
         }
       ],
       "rolls": 1
@@ -89,6 +92,15 @@
         {
           "type": "minecraft:item",
           "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            },
             {
               "conditions": [
                 {
@@ -135,11 +147,11 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "minecraft:chicken"
+          "name": "minecraft:beef"
         }
       ],
       "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:entities/chicken"
+  "random_sequence": "minecraft:entities/cow"
 }

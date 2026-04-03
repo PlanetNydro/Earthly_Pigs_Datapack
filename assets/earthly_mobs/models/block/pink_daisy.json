@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "earthly_mobs:block/pink_daisy"
+  }
+}

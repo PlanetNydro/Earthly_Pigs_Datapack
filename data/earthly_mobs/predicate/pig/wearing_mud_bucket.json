@@ -1,0 +1,8 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:pig",
+    "nbt": "{equipment:{saddle:{components:{\"minecraft:equippable\":{equip_on_interact: 1b,equip_sound:\"minecraft:block.mud.step\",allowed_entities:\"minecraft:pig\",slot:\"saddle\",asset_id:\"earthly_mobs:mud\"},\"minecraft:item_name\":\"Bucket of Mud\",\"minecraft:item_model\":\"earthly_mobs:mud_bucket\",\"minecraft:max_stack_size\":1},count:1,id:\"minecraft:mud\"}}}"
+  }
+}

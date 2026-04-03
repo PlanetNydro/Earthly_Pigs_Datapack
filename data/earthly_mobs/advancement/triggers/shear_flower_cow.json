@@ -1,4 +1,5 @@
 {
+  "parent": "earthly_mobs:triggers/root",
   "criteria": {
     "sheared_cow": {
       "trigger": "minecraft:player_hurt_entity",
@@ -11,40 +12,34 @@
             }
           }
         },
+        "damage": {
+          "type": {
+            "is_direct": true
+          }
+        },
         "entity": [
-          
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
               {
-                "condition": "minecraft:any_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "type": "minecraft:cow",
-                      "flags": {
-                        "is_baby": false
-                      },
-                      "components": {
-                        "minecraft:cow/variant": "earthly_mobs:moobloom"
-                      }
-                    }
+                "condition": "minecraft:reference",
+                "name": "earthly_mobs:cow/flower_cow"
+              },
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "ShearFlowerCows"
                   },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "type": "minecraft:cow",
-                      "flags": {
-                        "is_baby": false
-                      },
-                      "components": {
-                        "minecraft:cow/variant": "earthly_mobs:moolip"
-                      }
-                    }
-                  }
-                ]
+                  "score": "earthly_mobs_config"
+                },
+                "range": 1
               }
             ]
+          }
+        ]
       }
     }
   },

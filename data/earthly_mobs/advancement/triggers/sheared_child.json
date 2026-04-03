@@ -1,4 +1,5 @@
 {
+  "parent": "earthly_mobs:triggers/root",
   "criteria": {
     "bred_fluffy_cow": {
       "trigger": "minecraft:bred_animals",

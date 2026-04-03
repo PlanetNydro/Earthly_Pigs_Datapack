@@ -143,7 +143,7 @@
                   "components": {
                     "minecraft:item_name": {
                       "translate": "item.earthly_mobs.stormy_egg",
-                      "fallback": "Stormy Grey Egg"
+                      "fallback": "Stormy Egg"
                     },
                     "minecraft:chicken/variant": "earthly_mobs:stormy",
                     "minecraft:item_model": "earthly_mobs:custom_egg"

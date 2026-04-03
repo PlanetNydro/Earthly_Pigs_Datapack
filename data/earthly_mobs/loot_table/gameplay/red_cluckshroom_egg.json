@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:brown_egg",
+          "name": "minecraft:egg",
           "weight": 1,
           "conditions": [],
           "functions": [
@@ -15,7 +15,7 @@
               "components": {
                 "minecraft:item_name": {
                   "translate": "item.earthly_mobs.red_cluckshroom_egg",
-                  "fallback": "Red Fungal Egg"
+                  "fallback": "Red Cluckshroom Egg"
                 },
                 "minecraft:chicken/variant": "earthly_mobs:cluckshroom_red",
                 "minecraft:item_model": "earthly_mobs:custom_egg"
@@ -26,7 +26,21 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:red_mushroom",
-          "weight": 1
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "CustomMobDrops"
+                },
+                "score": "earthly_mobs_config"
+              },
+              "range": 1
+            }
+          ]
         }
       ]
     }

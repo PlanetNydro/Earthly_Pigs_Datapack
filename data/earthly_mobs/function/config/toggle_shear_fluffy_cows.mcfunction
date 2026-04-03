@@ -11,5 +11,8 @@ execute if score ShearWoolyCows earthly_mobs_config matches 0 as @e[type=minecra
 execute if score ShearWoolyCows earthly_mobs_config matches 1 as @e[type=minecraft:cow,nbt={variant:"earthly_mobs:umbra"},scores={cowShearTimer=1..}] run data merge entity @s {variant:"earthly_mobs:umbra_sheared"}
 execute if score ShearWoolyCows earthly_mobs_config matches 1 as @e[type=minecraft:cow,nbt={variant:"earthly_mobs:wooly"},scores={cowShearTimer=1..}] run data merge entity @s {variant:"earthly_mobs:wooly_sheared"}
 
-execute if score ShearWoolyCows earthly_mobs_config matches 1 run tellraw @a ["",{"text":"Earthly Mobs:","color":"#36dc0b"}," Fluffy Cow Shearing has been enabled"]
-execute if score ShearWoolyCows earthly_mobs_config matches 0 run tellraw @a ["",{"text":"Earthly Mobs:","color":"#36dc0b"}," Fluffy Cow Shearing has been disabled"]
+#execute if score ShearWoolyCows earthly_mobs_config matches 1 run tellraw @a ["",{"text":"Earthly Mobs:","color":"#36dc0b"}," Fluffy Cow Shearing has been enabled"]
+#execute if score ShearWoolyCows earthly_mobs_config matches 0 run tellraw @a ["",{"text":"Earthly Mobs:","color":"#36dc0b"}," Fluffy Cow Shearing has been disabled"]
+
+
+execute as @s run function earthly_mobs:config/open_config

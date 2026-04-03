@@ -2,12 +2,13 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "pig",
+    "type": "minecraft:pig",
+    "nbt": {
+      "AgeLocked": true,
+      "variant": "earthly_mobs:piebald"
+    },
     "flags": {
       "is_baby": true
-    },
-    "components": {
-      "minecraft:pig/variant": "earthly_mobs:piebald"
     }
   }
 }

@@ -1,7 +1,0 @@
-tellraw @s ["\n","\n","\n",{text:"Earthly Mobs:",color:"#36dc0b"}," Settings","\n"]
-execute if score ShearWoolyCows earthly_mobs_config matches 1 run tellraw @s ["",{text:"Fluffy Cow Shearing: "},{text:"[On]",color:"green"}]
-execute if score ShearWoolyCows earthly_mobs_config matches 0 run tellraw @s ["",{text:"Fluffy Cow Shearing: "},{text:"[Off]",color:"red"}]
-execute if score ShearFlowerCows earthly_mobs_config matches 1 run tellraw @s ["",{text:"Flower Cow Shearing: "},{text:"[On]",color:"green"}]
-execute if score ShearFlowerCows earthly_mobs_config matches 0 run tellraw @s ["",{text:"Flower Cow Shearing: "},{text:"[Off]",color:"red"}]
-execute if score MuddyPigChanges earthly_mobs_config matches 1 run tellraw @s ["",{text:"Responsive Muddy Pig Shearing: "},{text:"[On]",color:"green"}]
-execute if score MuddyPigChanges earthly_mobs_config matches 0 run tellraw @s ["",{text:"Responsive Muddy Pig Shearing: "},{text:"[Off]",color:"red"}]

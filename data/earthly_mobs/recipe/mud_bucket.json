@@ -15,7 +15,6 @@
         },
         "minecraft:equippable": {
           "slot": "saddle",          
-          
           "equip_sound": "minecraft:block.mud.step",
           "asset_id": "earthly_mobs:mud",
           "allowed_entities": "minecraft:pig",

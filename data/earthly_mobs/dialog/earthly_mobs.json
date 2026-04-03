@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:multi_action",
+  "title": [
+    {
+      "atlas": "minecraft:items",
+      "sprite": "earthly_mobs:item/journal_icon"
+    },
+    " ",
+    {
+      "translate": "menu.earthly_mobs",
+      "fallback": " Earthly Mobs"
+    }
+  ],
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:player_head",
+        "components": {
+          "minecraft:profile": {
+            "name": "PlanetNydro"
+          }
+        }
+      },
+      "description": [
+        {
+          "translate": "menu.planetnydro.credit",
+          "fallback": "Datapack created by PlanetNydro"
+        }
+      ],
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "menu.earthly_mobs.desc",
+        "fallback": "If you can read this, you don't have the resource pack installed correctly"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "menu.earthly_mobs.desc2",
+        "fallback": ""
+      }
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": true,
+  "exit_action": {
+    "label": {
+      "translate": "gui.done"
+    }
+  },
+  "actions": [
+    {
+      "label": {
+        "translate": "menu.earthly_mobs.config_button",
+        "fallback": "Options"
+      },
+      "tooltip": {
+        "translate": "menu.earthly_mobs.config_button.tooltip",
+        "fallback": "Change datapack settings. Requires permissions"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function earthly_mobs:config/open_config"
+      }
+    }
+  ]
+}

@@ -17,7 +17,10 @@
     }
   },
   "display": {
-    "description": "Bring a Moon cow home from the Outer End",
+    "description": {
+      "translate": "advancements.end.moon_cow_rescue.description",
+      "fallback": "Bring a Moon cow home from the Outer End"
+    },
     "frame": "challenge",
     "icon": {
       "components": {
@@ -26,7 +29,10 @@
       "count": 1,
       "id": "minecraft:end_stone"
     },
-    "title": "Outer End Rescue",
+    "title": {
+      "translate": "advancements.end.moon_cow_rescue.title",
+      "fallback": "Outer End Rescue"
+    },
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
