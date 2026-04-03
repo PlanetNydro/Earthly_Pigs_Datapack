@@ -76,7 +76,7 @@ There's a new menu on the pause screen! Along with some general information abou
 - Fluffy Cow Shearing: By smacking an Umbra or Wooly cow with a pair of shears, you can shear them like a sheep. Umbra cows drop black wool, while Wooly cows drop brown. After a few minutes, their wool should grow back.
 - Flower Cow Shearing: By smacking a Moobloom or a Moolip with a pair of shears, you can turn them back into a temperate cow, much like how you can with mooshrooms. When sheared, they leave behind a dandelion or pink tulip, respectively.
 - Responsive Muddy Pigs: Causes the mud on Muddy pigs to interact with their environment. Their mud will dry out in warm biomes. Once dried out, they can be returned to their normal state by having them stand on mud or muddy roots. Standing on these blocks will also prevent them from drying out in the first place. Finally, they can have their mud washed off entirely by going for a swim, reverting them to temperate pigs.
-- Custom Mob Drops: Allows some mob variants to have diffrent drops from their vanilla counterparts. This does not include the custom eggs layed by chickens, but it does include the cluckshroom having a chance to lay a mushroom instead.
+- Custom Mob Drops: Allows some mob variants to have different drops from their vanilla counterparts. This does not include the custom eggs laid by chickens, but it does include the cluckshroom having a chance to lay a mushroom instead.
     
     Mobs with unique loot include: 
     - Umbra Cow (Black Wool, Leather, and Beef)
