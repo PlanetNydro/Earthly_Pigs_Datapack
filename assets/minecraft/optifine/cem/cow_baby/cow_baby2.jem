@@ -1,0 +1,90 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [2.5, -6, -3.5],
+			"boxes": [
+				{"coordinates": [-4, 0, 2, 3, 6, 3], "textureOffset": [34, 27]}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-2.5, -6, -3.5],
+			"boxes": [
+				{"coordinates": [1, 0, 2, 3, 6, 3], "textureOffset": [22, 27]}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -10.431, 5.1667],
+			"boxes": [
+				{"coordinates": [-3, 9, -10, 6, 6, 5], "textureOffset": [0, 18]},
+				{"coordinates": [-4, 14, -9, 1, 2, 1], "textureOffset": [8, 29]},
+				{"coordinates": [3, 14, -9, 1, 2, 1], "textureOffset": [4, 29]},
+				{"coordinates": [-2, 9, -11, 4, 3, 1], "textureOffset": [12, 29]}
+			],
+			"submodels": [
+				{
+					"id": "flower",
+					"invertAxis": "xy",
+					"translate": [2, 8, 6],
+					"boxes": [
+						{
+							"coordinates": [-2.25, 7, -14.25, 0, 4, 3],
+							"uvNorth": [33, 45, 33, 48],
+							"uvEast": [24, 45, 29, 51],
+							"uvSouth": [36, 45, 36, 48],
+							"uvWest": [29, 45, 34, 51],
+							"uvUp": [33, 45, 33, 42],
+							"uvDown": [33, 42, 33, 45]
+						},
+						{
+							"coordinates": [-4, 7, -13, 3, 4, 0],
+							"uvNorth": [23, 45, 28, 51],
+							"uvEast": [30, 45, 30, 48],
+							"uvSouth": [28, 45, 33, 51],
+							"uvWest": [33, 45, 33, 48],
+							"uvUp": [33, 45, 30, 45],
+							"uvDown": [36, 45, 33, 45]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [2.5, -6, 3.5],
+			"boxes": [
+				{"coordinates": [-4, 0, -5, 3, 6, 3], "textureOffset": [34, 18]}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [3, -5, 5],
+			"boxes": [
+				{"coordinates": [-4, 6, -6, 8, 6, 12], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [-2.5, -6, 3.5],
+			"boxes": [
+				{"coordinates": [1, 0, -5, 3, 6, 3], "textureOffset": [22, 18]}
+			]
+		}
+	]
+}

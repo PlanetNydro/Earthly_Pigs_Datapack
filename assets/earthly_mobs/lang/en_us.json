@@ -7,6 +7,8 @@
   
   "item.earthly_mobs.buttercup": "Buttercup",
   "item.earthly_mobs.pink_daisy": "Pink Daisy",
+  "item.earthly_mobs.throwable_seeds": "Throwable Melon Seeds",
+  "item.earthly_mobs.carved_melon": "Carved Melon",
 
   "item.earthly_mobs.amber_egg": "Amber Egg",
   "item.earthly_mobs.bronzed_egg": "Bronzed Egg",
@@ -16,10 +18,15 @@
   "item.earthly_mobs.gold_crested_egg": "Gold Crested Egg",
   "item.earthly_mobs.fancy_egg": "Fancy Egg",
   "item.earthly_mobs.red_cluckshroom_egg": "Red Fungal Egg",
+  "item.earthly_mobs.brown_cluckshroom_egg": "Brown Fungal Egg",
   "item.earthly_mobs.duck_egg": "Duck Egg",
 
   "advancements.end.moon_cow_rescue.description": "Bring a Moon cow home from the Outer End",
   "advancements.end.moon_cow_rescue.title": "Outer End Rescue",
+  "advancements.husbandry.skeleton_wolf_grim.description": "Rename a Skeleton Wolf \"Grimm\"",
+  "advancements.husbandry.skeleton_wolf_grim.title": "One Legend to Another",
+  "advancements.husbandry.all_earthly_mobs.description": "Interact with every Earthly Mob variant at least once",
+  "advancements.husbandry.all_earthly_mobs.title": "Down to Earth",
 
   "menu.earthly_mobs": "Earthly Mobs",
   "menu.planetnydro.credit": "Datapack created by PlanetNydro",
@@ -45,15 +52,28 @@
   "menu.earthly_mobs.custom_mob_drops.tooltip": "Gives some mob variants their own drops",
   "menu.earthly_mobs.easter_egg_variants.label": "Easter Egg Variants",
   "menu.earthly_mobs.easter_egg_variants.tooltip": "Gives some mob unique variants that don't spawn naturally, similarly to the Toast Rabbit",
+  "menu.earthly_mobs.melon_golem.label": "Optifine Melon Golem",
+  "menu.earthly_mobs.melon_golem.tooltip": "Smacking a Melon Golem with a carved melon puts it on its head. Requires optifine/CEM to see",
   
 
   "earthly_mobs.1": ": On",
   "earthly_mobs.0": ": Off",
 
   
+  "minecraft.cat.tabby": "Tabby Cat",
+  "minecraft.cat.black": "Tuxedo Cat",
+  "minecraft.cat.all_black": "Black Cat",
+  "minecraft.cat.red": "Red Cat",
+  "minecraft.cat.siamese": "Siamese Cat",
+  "minecraft.cat.british_shorthair": "British Shorthair Cat",
+  "minecraft.cat.calico": "Calico Cat",
+  "minecraft.cat.persian": "Persian Cat",
+  "minecraft.cat.ragdoll": "Ragdoll Cat",
+  "minecraft.cat.white": "White Cat",
+  "minecraft.cat.jellie": "Jellie Cat",
   "earthly_mobs.cat.dyed": "Dyed Cat",
-  "earthly_mobs.cat.gray_tabby": "Gray Tabby",
-  "earthly_mobs.cat.mcd_tabby": "MCD Tabby",
+  "earthly_mobs.cat.gray_tabby": "Gray Tabby Cat",
+  "earthly_mobs.cat.mcd_tabby": "MCD Tabby Cat",
   
   "minecraft.chicken.temprate": "Temprate Chicken",
   "minecraft.chicken.warm": "Warm Chicken",
@@ -114,4 +134,6 @@
   "minecraft.wolf.woods": "Woods Wolf",
   "earthly_mobs.wolf.skeleton": "Skeleton Wolf",
   "earthly_mobs.wolf.mars": "Mars Wolf"
+
+  
 }
